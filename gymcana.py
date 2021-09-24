@@ -336,7 +336,7 @@ def hilo(sock_server):
 # intentaremos leer la url que se nos proporcionaba en el enunciado junto con la extensión de la petición.
 # Para obtener la extensión haré un split(), para poder obtener el rfc de la petición.
 
-# Una vez leida la url, concatenaremos el mensaje de OK porporcionado en el enunciado junto con la estensión
+# Una vez leida la url, concatenaremos el mensaje de OK porporcionado en el enunciado junto con la extensión
 # antes mencionada, después se enviaŕa ese mensaje y para que el usuario se entere de que pasa, se mostrara el mensaje por la pantalla.
 
 # En el caso de que haya un error se enviará el mensaje Not Found y se mostrará por pantalla, después se cerrará ese cliente. (desconexión)
