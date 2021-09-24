@@ -52,7 +52,7 @@ def paso1(id1):
 
 ############################################# PASO 2 ###############################################
 
-# En el paso 2 renía que conectarme al servidor TCP, para ello creo un socket SOCK_STREAM
+# En el paso 2 tenía que conectarme al servidor TCP, para ello creo un socket SOCK_STREAM
 # defino un par de variables que me serán de gran utilidad. En un bucle "infinito" voy recibiendo los datos
 # que me envía el servidor. En el caso de que encuentre un 0, saldré del bucle, si por el contrario no encuentro el 0
 # iré recibiendo más datos y los iré concatenando.
